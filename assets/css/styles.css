@@ -175,6 +175,8 @@ img {
   gap: 1.5rem;
 }
 
+
+
 .header {
   width: 100%;
   position: fixed;
@@ -1050,8 +1052,14 @@ img {
     column-gap: 0;
   }
 
+  .footer,
+.main {
+  width: 275%;
+}
+
+
+
   .home__content {
-    grid-template-columns: 0.35fr 3fr;
   }
 
   .home__blob {
@@ -1170,7 +1178,7 @@ img {
 
     .header,
     .main,
-    .footer__container {
+    .footer__container{
       padding: 0 1rem;
     }
 
